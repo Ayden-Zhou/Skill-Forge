@@ -1,0 +1,4 @@
+interface:
+  display_name: "Refresh AGENTS Snapshot"
+  short_description: "Refresh device and repo snapshots in AGENTS.md"
+  default_prompt: "Use $refresh-agents-snapshot to refresh AGENTS.md device and repository structure snapshots for this repo."
