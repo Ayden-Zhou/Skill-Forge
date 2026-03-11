@@ -1,0 +1,1 @@
+- Stores project-scoping documents that define the motivation, research questions, and evaluation boundaries for this repo.

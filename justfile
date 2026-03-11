@@ -1,7 +1,7 @@
 # Format code
 fmt:
-    ruff format src/ tests/
+    .venv/bin/ruff format src/ tests/
 
 # Lint and check code
 check:
-    ruff check src/ tests/
+    .venv/bin/ruff check src/ tests/

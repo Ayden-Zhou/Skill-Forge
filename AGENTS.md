@@ -22,7 +22,6 @@ Your priorities:
 - （optional）修改代码 写文档
 - 回答问题，生成报告: 改动了哪些文件、测试结果、有哪些不太有信心的地方。
 
-
 ### 1.1 代码修改流程
 
 - 任何代码改动先读该目录下的 `notes.md`；跨目录改动就分别读取。没有就先创建。`notes.md` 用于承载该目录的局部约定、实现现状和后续迁移说明，避免把所有细节都堆在根 `AGENTS.md` 中。
@@ -84,25 +83,25 @@ e.g.:
 
 ## 2. Device Snapshot
 
-- Refreshed at: `2026-03-09 07:53 UTC`
-- Accelerator backend: `system_profiler`
-- GPU summary: Apple M4 x1
-- GPU count: `1`
-- GPU cores: `10`
-- Memory model: unified memory shared with the system (`24 GB` total)
-- GPU interconnect topology: integrated single-device GPU; no multi-GPU fabric
-- Metal support: `Metal 4`
+- Refreshed at: `2026-03-09 09:51 UTC`
+- Platform: `Linux-6.8.0-79-generic-x86_64-with-glibc2.35`
+- GPU summary: unavailable
+- GPU count: unavailable
+- Aggregate GPU memory: unavailable
+- GPU interconnect topology: unavailable
 
 ## 3. Repo Structure Snapshot
 
-- Refreshed at: `2026-03-09 07:53 UTC`
+- Refreshed at: `2026-03-09 09:51 UTC`
 
 ```text
 .
 ├── src/
 │   └── dataclass.py
 ├── ref/
-│   └── (no module directories yet)
+│   ├── open_source/ - Mirrors external open-source repositories used as implementation and training references, including the SDPO codebase.
+│   ├── project_info/ - Stores project-scoping documents that define the motivation, research questions, and evaluation boundaries for this repo.
+│   └── related_works/ - Reserved for summaries and notes about closely related papers, baselines, and adjacent research threads.
 ├── tests/
 │   ├── func_tests/
 │   └── module_tests/

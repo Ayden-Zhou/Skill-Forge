@@ -1,0 +1,1 @@
+- Reserved for summaries and notes about closely related papers, baselines, and adjacent research threads.
